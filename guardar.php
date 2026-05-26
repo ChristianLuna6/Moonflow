@@ -35,6 +35,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         exit();
     } else {
         echo "Error al guardar el registro: " . mysqli_error($conn);
+        exit();
     }
 }
 ?>
@@ -137,3 +138,4 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 </div>
 </body>
 </html>
+                

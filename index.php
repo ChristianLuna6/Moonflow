@@ -4,7 +4,7 @@ include("conexion.php");
 $mes = date("m");
 $anio = date("Y");
 
-$diasMes = cal_days_in_month(CAL_GREGORIAN, $mes, $anio);
+$diasMes = date("t", strtotime("$anio-$mes-01"));
 
 $query = "SELECT fecha FROM registros";
 $result = mysqli_query($conn, $query);

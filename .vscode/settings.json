@@ -54,7 +54,7 @@
             "previewLimit": 50,
             "server": "kodama.proxy.rlwy.net",
             "port": 54120,
-            "driver": "MySQL",
+            "driver": "root",
             "name": "Railway Moonflow",
             "database": "railway",
             "username": "root",
